@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#titlediv{
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    /* border-top: .1px solid rgba(204, 202, 202, 0.301); */
+    /* border-bottom: .1px solid rgba(204, 202, 202, 0.301); */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#titlediv:hover{
+    background-color: rgba(36, 36, 36, 0.253);
+    cursor: pointer;
+}
+#titlediv h1:hover{
+    color: rgba(240, 236, 236, 0.877);
+    cursor: pointer;
+}
+#titlediv h1{
+    position: absolute;
+    top: 10px;   
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: whiskey_girls;
+    color: rgba(240, 236, 236, 0.349);
+}
+#titlediv #t1{
+    left: 2.1%;
+}
+#titlediv #t2{
+    left: 34%;
+}
+#titlediv #t3{
+    left: 71%;
+}
+#titlediv #t4{
+    top: -1px;
+    font-size: 35px;
+    right: 2.1%;
+}
+#left{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+#linediv{
+    z-index: 10;
+    position: absolute;
+    top: 60%;
+    width: 333.4%;
+    height: 42px;
+    border-top: .1px solid rgba(204, 202, 202, 0.301);
+    border-bottom: .1px solid rgba(204, 202, 202, 0.301);
+}
+#linediv:hover{
+    background-color: rgba(10, 10, 10, 0.253);
+    cursor: pointer;
+}
+#linediv #a1{
+    position: absolute;
+    top: 11px;   
+    left: 30px;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: rgba(240, 236, 236, 0.349);
+}
+#linediv #a2{
+    position: absolute;
+    top: 11px;
+    right: 3.5%;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: rgba(240, 236, 236, 0.349);
+}
+#topmain{
+    z-index: 10;
+    position: absolute;
+    line-height: 85px;
+    top: 18%;
+    left: 6.5%;
+    width: 100px;
+    height: 100px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#topmain h1{
+    font-size: 120px;
+    font-family: kong_2;
+}
+#topmain:hover{
+    -webkit-text-stroke: .3px white;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    color: transparent;
+    cursor: pointer;
+}
+#anna{
+    position: absolute;
+    bottom: 7%;
+    left: 6.8%;
+    line-height: 39px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .4s;
+}
+#anna h1{   
+    font-size: 42px;
+    font-family: xhers;
+}
+#anna:hover{
+    color: rgba(255, 255, 255, 0.308);
+    cursor: pointer;
+}
+h4{
+    position: absolute;
+    bottom: 17.5%;
+    left: 7.3%;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: "whiskey_girls";
+    color: rgba(240, 236, 236, 0.349);
+}
+#center{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1642706764557-0fb737a28741?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#circle{
+    z-index: 10;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: rgba(238, 130, 238, 0);
+    top: 20%;
+    left: 68%;
+    border: solid 1px  rgba(255, 255, 255, 0.137);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#circle:hover{
+    background-color: rgba(255, 255, 255, 0.048);
+    cursor: pointer;
+}
+#circle h1{
+    position: absolute;
+    top: 56px;
+    left: 25px;
+    width: 10%;
+    height: 20%;
+    color: rgba(214, 207, 207, 0.322);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: xhers;
+    letter-spacing: 10px;
+}
+#startext{
+    position: absolute;
+    bottom: 6%;
+    left: 1.2%;
+    height: 100px;
+}
+#startext h2{
+    position: absolute;
+    top: -30px;
+    left: -25px;
+    font-size: 60px;
+    color: white;
+}
+#startext h1{
+    position: absolute;
+    top: 6px;
+    font-size: 80px;
+    color: white;
+    font-family: xhers;
+}
+#right{
+    width: 20%;
+    height: 100%;
+}
+
+#right #rtop{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1547617774-2eb320ad93f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rbtm{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: #868684;
+}
+#rbtm:hover{
+    background-color: #050A08;
+    color: #868684;
+    cursor: pointer;
+}
+#rbtm #bttext{
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    transform: translate(-60%,-45%);
+    width: 100px;
+    height: 100px;
+}
+#rbtm #bttext h1{
+    font-size: 52px;
+    font-family: kong_2;
+}
